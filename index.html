@@ -1,0 +1,221 @@
+<!-- <html>
+<head>
+    <style>
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #32a852;
+    }
+    .flex-container div {
+        background-color: #c9d1cb;
+        margin: 10px;
+        padding: 20px;
+        flex: 1 1 200px;
+    }
+    @media (max-width: 600px) {
+        .flex-container {
+            flex-direction: column;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h2>Responsive Flexbox</h2>
+    <div class="flex-container">
+        <div>columnn 1</div>
+        <div>column 2</div>
+        <div>column 3</div>
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CSS align-items: normal Property
+    </title>
+    <style>
+        #normal {
+            width: 320px;
+            height: 200px;
+            border: 2px solid black;
+            display: flex;
+            align-items: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 style="color:green;">hello world </h1>
+
+        <div id="normal">
+            <div style="background-color:blue;">
+                Blue
+            </div>
+            <div style="background-color:red;">
+                Red
+            </div>
+        </div>
+
+    </center>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>align-content property</title>
+        <style>
+            .main-container {
+                display: flex;
+                height: 400px;
+                flex-wrap: wrap;
+                align-content: center;
+                background-color: green;
+            }
+            
+            .main-container div {
+                background-color: #f4f4f4;
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                font-size: 50px;
+            }
+            h2 {
+                text-align:center;
+            }
+            .geeks {
+                font-size:40px;
+                text-align:center;
+                color:#009900;
+                font-weight:bold;
+            } 
+        </style>
+    </head>
+    <body>
+        <div class = "geeks">GeeksforGeeks</div>
+        <h2>align-content: center;</h2>
+        <div class="main-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div> 
+            <div>4</div>
+            <div>5</div>
+            <div>6</div> 
+            <div>7</div>
+            <div>8</div>
+            <div>9</div> 
+            <div>10</div>
+        </div>
+    </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Example</title>
+
+    <style>
+        
+        .container {
+            display: flex;
+            height: 250px;
+            background-color: rgb(235, 21, 21);
+            align-items: flex-start;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        #box1 {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            height: 100px;
+        }
+        .box {
+            width: 100px;
+            height: 80px;
+            background-color: rgb(4, 51, 70);
+            border: 2px solid black;
+            text-align: center;
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+
+    
+        .box1 {
+            order: 3;
+        }
+
+        .box2 {
+            order: 1;
+        }
+        .box3 {
+            order: 3;
+        }
+
+        .box4 {
+            order: 4;
+        }
+
+        .box5 {
+            order: 5;
+        }
+
+        .box6 {
+            order: 6;
+        }
+        .box7 {
+            order: 7;
+        }
+
+        .box8 {
+            order: 8
+        }
+
+        .box9 {
+            order: 9
+        }
+
+        
+
+        .box4 {
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Main container</h2>
+
+    <div class="container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+        <div class="box box5">Box 4</div>
+        <div class="box box6">Box 5</div>
+        <div class="box box7">Box 6</div>
+        <div class="box box8">Box 6</div>
+        <div class="box box9">Box 6</div>
+    
+    </div>
+
+</body>
+</html>

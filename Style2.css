@@ -1,0 +1,36 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    /*justify-content: center;*/
+    aligm-item: center;
+}
+
+
+/* justify content: main axis ke around kaam karta hai
+main axis decide kun krega, aaoka fkex direction*/
+/* align item work around cross axis */
+
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;;
+}
+
+.first{
+    background-color: rgb(68, 0, 255);
+}
+
+.second{
+    background-color:rgb(128, 0, 21);
+    flex-basis: 200;
+}
+
+
+.third{
+    background-color: red;
+}
